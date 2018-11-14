@@ -1,0 +1,4 @@
+
+curl -X POST localhost:8080/token/generate-token \
+-H "Content-Type: application/json" \
+-d '{"username": "Alex123", "password": "password"}'
